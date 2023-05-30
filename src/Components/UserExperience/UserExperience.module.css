@@ -1,0 +1,59 @@
+.container{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.topSection{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24rem;
+}
+
+.bottomSection{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+.originalProducts, .statisfactionGuaranteed, .newArrivals, .fastDelivery{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.originalProductsHeading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.originalProductsPara{
+    font-size: 0.8rem;
+    color: #9b9b9b;
+}
+.originalProductsIcon{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #8080801f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verticalLine{
+    width: 2px;
+    height: 2rem;
+    background-color: #050505;
+}
+.topRightSection{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}

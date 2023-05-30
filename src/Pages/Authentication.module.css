@@ -1,0 +1,36 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    min-width: 20rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    min-width: 25rem;
+    height: 100vh;
+}
+
+.inputElement{
+    min-width: 23rem;
+    border-radius: 6px;
+    padding: 0.6rem;
+    border: 2px solid #9b9b9b;
+    background: #f4f6f7;
+}
+.inputElement:focus{
+    outline: none;
+}
+.inputElement::placeholder{
+    color: #9b9b9b;
+    font-weight: bold;
+}
+.labelElement{
+    font-weight: 500;
+    color: #524f4f;
+}
+.switchToLoginContainer{
+    min-width: 24rem;
+}

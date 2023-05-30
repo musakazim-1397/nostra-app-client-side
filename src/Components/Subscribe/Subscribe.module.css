@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.heading{
+    color: black;
+    max-width: 41rem;
+}
+
+.paraContainer{
+    color: gray;
+}
+
+.inputAndButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.inputContainer{
+    position: relative;
+}
+.inputContainer input{
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    outline: none;
+    padding-left: 2.5rem;
+    background: #80808040;
+}
+.button{
+    width: 7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #5f6061;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 1rem 1rem;
+}
+.iconContainer{
+    position: absolute;
+    top: 29%;
+    left: 3%;
+}

@@ -1,0 +1,197 @@
+.outerContainer{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background: #ffff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78%;
+    height: 100%;
+}
+
+.leftImageContainer{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f4f6f7;
+    position: relative;
+}
+
+.leftImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.leftImageText{
+    position: absolute;
+    inset: 0;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.leftProductName{
+    position: absolute;
+    top: 21%;
+    left: 4%;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.leftProductDescription{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: gray;
+    text-align: start;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.leftProductPrice{
+    position: absolute;
+    top: 51%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: wheat;
+    /* text-align: center; */
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.rightImageContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f4f6f7;
+}
+
+.rightImageContainerTop{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    background: #f4f6f7;
+}
+.rightImageTop{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightImageText{
+    position: absolute;
+    inset: 0;   
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.rightProductName{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.rightProductDescription{
+    position: absolute;
+    top: 70%;
+    left: 6%;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.rightProductPrice{
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+.rightImageContainerBottom{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    background: #f4f6f7;
+}
+
+.rightImageContainerBottomLeft{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f4f6f7;
+    position: relative;
+}
+
+.rightImageContainerBottomLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightImageContainerBottomRight{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f4f6f7;
+    position: relative;
+}
+
+.rightImageContainerBottomRight img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

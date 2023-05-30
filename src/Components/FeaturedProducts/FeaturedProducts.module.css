@@ -1,0 +1,131 @@
+.outerContainer{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.topLine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 41rem;
+    margin-bottom: -1.5rem;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.itemsOuterContainer{
+    width: 57rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    transition: all 1s ease;
+    scrollbar-width: thin;
+    scrollbar-color: #999999 #dddddd;
+}
+.itemsOuterContainer::-webkit-scrollbar {
+    width: 8px; 
+    height: 9px;
+  }
+.itemsOuterContainer::-webkit-scrollbar-thumb {
+    background-color: #100e0e; 
+  }
+.itemsOuterContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #555555; /* Adjust the hover color as needed */
+  }
+.itemsInnerContainer{
+    width: 108rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    gap: 1rem;
+    padding: 0 0.5rem;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 17rem;
+    height: 24rem;
+    text-decoration: none;
+}
+.productImageContainer{
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.productImageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.button{
+    position: absolute;
+    bottom: 7%;
+    left: 11%;
+    width: 9rem;
+    height: 1rem;
+    background-color: white;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 0.5rem;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.productDetailContainer{
+    width: 100%;
+    display: flex;
+    height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productNameAndPriceContainer{
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+    position: relative;
+}
+
+.cartIconContainer{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #9999999c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productName{
+    text-decoration: none;
+}

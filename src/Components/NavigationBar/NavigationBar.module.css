@@ -1,0 +1,120 @@
+.container{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+.signUpSection{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D242D;
+    color: white;
+    gap: 5rem;
+}
+.signupLink{
+    text-decoration: underline;
+    color: white;
+}
+.navigationSection{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.navigationLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    height: 100%;
+}
+.navigationLink{
+    text-decoration: none;
+    font-weight: bold;
+    color:  #1D242D;
+}
+
+.searchSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 19rem;
+}
+
+.SearchContainer{
+    position: relative;
+    min-width: 10rem;
+
+}
+.searchIcon{
+    position: absolute;
+    top: 0.69rem;
+    left: 0.5rem;
+    color: #9b9b9b;
+
+}
+.inputElement{
+    width: 13rem;
+    height: 2rem;
+    border-radius: 6px;
+    padding-left: 2rem;
+    background: #f4f6f7;
+    border: 3.5px solid #ededed;
+}
+.inputElement:focus{
+    outline: none;
+}
+.inputElement::placeholder{
+    color: #9b9b9b;
+    font-weight: bold;
+}
+
+.userContainer{
+    position: relative;
+}
+.userDropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2%;
+    left: 103%;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 5px;
+    background: #f4f6f7;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    gap: 7px;
+    z-index: 1;
+}
+
+.googleLoginContainer, .myProducts, .myOrders, .addProduct{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.userImage{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.logoutButton{
+    outline: none;
+    border: none;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 1.1rem;
+}

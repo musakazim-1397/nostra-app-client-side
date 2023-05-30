@@ -1,0 +1,74 @@
+.container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3rem 0;
+}
+.imgContainer{
+    width: 63rem;
+    height: 27rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+
+}
+
+.imgText{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #8482804d;
+    border-radius: 15px;
+}
+
+.heroMainText{
+    font-size: 4rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    max-width: 53rem;
+}
+
+.shopNowBtn{
+    padding: 0.7rem 1rem;
+    border: none;
+    color: #383737;
+    border-radius: 4px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap:0.5rem;
+}
+
+.changeImgBtns{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    background-color: white;
+    gap: 1.1rem;
+    cursor: pointer;
+}
